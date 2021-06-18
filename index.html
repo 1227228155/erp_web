@@ -27,7 +27,7 @@
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>erp</title>
-  <link rel="manifest" href="manifest.json">
+  <link rel="erp_web/manifest" href="manifest.json">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -36,10 +36,10 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=275802698');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3702824547');
       });
     }
   </script>
-  <script src="main.dart.js" type="application/javascript"></script>
+  <script src="erp_web/main.dart.js" type="application/javascript"></script>
 </body>
 </html>
